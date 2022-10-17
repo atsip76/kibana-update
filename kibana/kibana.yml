@@ -8,7 +8,7 @@ server:
   
 
 # When enabling encryption between Kibana and Elasticsearch, change "http" to "https" below:
-elasticsearch.hosts: ["http://http://5.8.29.219/:9200"]
+elasticsearch.hosts: ["http://5.8.29.219/:9200"]
 
 ##xpack.monitoring.ui.container.elasticsearch.enabled: true
 csp.strict: true
