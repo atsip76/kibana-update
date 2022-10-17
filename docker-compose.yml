@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 services:
   kibana:
     build:
@@ -27,3 +27,7 @@ services:
       retries: 120
     networks:
       - elastic
+networks:
+  elastic:
+    name: elastic
+    driver: bridge
